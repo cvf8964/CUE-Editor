@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'Cue Editor' target in the 'Cue Editor' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
+#ifndef SomeStuff
+
+#define NumberWithInt(integer) [NSNumber numberWithInt:integer]
+#define NumberWithString(string) [NSNumber numberWithInt:[string intValue]]
+#define StringFromInt(int) [numFormatter stringFromNumber:NumberWithInt(int)]
+#define StringFromNumber(number) [NSString stringWithFormat:@"%@", number]
+
+#define GBStandardLogFormatter(...) [NSString stringWithFormat:@"%@ - %@\n", [NSDate date], [NSString stringWithFormat:__VA_ARGS__]]
+
+#define PrintNewline() printf("\n")
+
+#endif

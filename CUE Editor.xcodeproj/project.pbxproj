@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4904CCFC1587162E002EAF32 /* GBURLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904CCFB1587162E002EAF32 /* GBURLView.m */; };
+		491FA8D41587996E00C602D6 /* GBWideStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 491FA8D21587996E00C602D6 /* GBWideStringUtils.m */; };
+		493879B8159383DB009BE2F7 /* Cue Sheet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 493879B7159383DB009BE2F7 /* Cue Sheet.icns */; };
+		4942B8B81581A52A00155674 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4942B8B71581A52A00155674 /* Cocoa.framework */; };
+		4942B8C21581A52A00155674 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4942B8C01581A52A00155674 /* InfoPlist.strings */; };
+		4942B8C41581A52A00155674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942B8C31581A52A00155674 /* main.m */; };
+		4942B8CE1581A52A00155674 /* CueSheetDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4942B8CC1581A52A00155674 /* CueSheetDocument.xib */; };
+		4942B8D11581A52B00155674 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4942B8CF1581A52B00155674 /* MainMenu.xib */; };
+		4942B8E01581AE9700155674 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942B8DF1581AE9700155674 /* GBAppDelegate.m */; };
+		4974D83115944FA500FE105C /* Genre.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4974D83015944FA500FE105C /* Genre.plist */; };
+		4983FAFD1593BC47007E9B12 /* GBFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4983FAFC1593BC47007E9B12 /* GBFormatters.m */; };
+		49951D0C158B2384001D831E /* GBPrioritySet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951D0B158B2384001D831E /* GBPrioritySet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49B1C8FE158B940F007CD36D /* GBAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1C8FC158B940F007CD36D /* GBAboutWindowController.m */; };
+		49B1C8FF158B940F007CD36D /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1C8FD158B940F007CD36D /* About.xib */; };
+		49C999F11585E3F00048DF71 /* GBCueSheetDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C999F01585E3F00048DF71 /* GBCueSheetDocument.m */; };
+		49C999F915861D0B0048DF71 /* GBDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C999F815861D0B0048DF71 /* GBDuration.m */; };
+		49C99A00158650A20048DF71 /* Apple.icns in Resources */ = {isa = PBXBuildFile; fileRef = 49C999FF158650A20048DF71 /* Apple.icns */; };
+		49C99A08158655C80048DF71 /* GBPathDragDropTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C99A07158655C80048DF71 /* GBPathDragDropTextField.m */; };
+		49CCC9D0158882C800766EEB /* GBSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CCC9CF158882C800766EEB /* GBSegmentedControl.m */; };
+		49DB727B1588F6D0009D17B7 /* GBCueSheetComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB727A1588F6D0009D17B7 /* GBCueSheetComponents.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4904CCFA1587162E002EAF32 /* GBURLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBURLView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4904CCFB1587162E002EAF32 /* GBURLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GBURLView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		491FA8CA15874CA500C602D6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		491FA8D21587996E00C602D6 /* GBWideStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWideStringUtils.m; sourceTree = "<group>"; };
+		491FA8D31587996E00C602D6 /* GBWideStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWideStringUtils.h; sourceTree = "<group>"; };
+		493879B7159383DB009BE2F7 /* Cue Sheet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Cue Sheet.icns"; sourceTree = "<group>"; };
+		4942B8B31581A52A00155674 /* Cue Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cue Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4942B8B71581A52A00155674 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4942B8BA1581A52A00155674 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4942B8BB1581A52A00155674 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4942B8BC1581A52A00155674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4942B8BF1581A52A00155674 /* CUE Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CUE Editor-Info.plist"; sourceTree = "<group>"; };
+		4942B8C11581A52A00155674 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4942B8C31581A52A00155674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4942B8C51581A52A00155674 /* CUE Editor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "CUE Editor-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4942B8CD1581A52A00155674 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CueSheetDocument.xib; sourceTree = "<group>"; };
+		4942B8D01581A52B00155674 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4942B8DE1581AE9700155674 /* GBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4942B8DF1581AE9700155674 /* GBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GBAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4974D83015944FA500FE105C /* Genre.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Genre.plist; path = "Cue Editor/Genre.plist"; sourceTree = SOURCE_ROOT; };
+		4983FAFB1593BC47007E9B12 /* GBFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBFormatters.h; path = "Cue Editor/GBFormatters.h"; sourceTree = SOURCE_ROOT; };
+		4983FAFC1593BC47007E9B12 /* GBFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBFormatters.m; path = "Cue Editor/GBFormatters.m"; sourceTree = SOURCE_ROOT; };
+		49951D0A158B2384001D831E /* GBPrioritySet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBPrioritySet.h; path = "Cue Editor/GBPrioritySet.h"; sourceTree = SOURCE_ROOT; };
+		49951D0B158B2384001D831E /* GBPrioritySet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBPrioritySet.m; path = "Cue Editor/GBPrioritySet.m"; sourceTree = SOURCE_ROOT; };
+		49B1C8F9158B922A007CD36D /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		49B1C8FB158B940F007CD36D /* GBAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBAboutWindowController.h; path = "Cue Editor/GBAboutWindowController.h"; sourceTree = SOURCE_ROOT; };
+		49B1C8FC158B940F007CD36D /* GBAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBAboutWindowController.m; path = "Cue Editor/GBAboutWindowController.m"; sourceTree = SOURCE_ROOT; };
+		49B1C8FD158B940F007CD36D /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = About.xib; path = "Cue Editor/About.xib"; sourceTree = SOURCE_ROOT; };
+		49C999EF1585E3F00048DF71 /* GBCueSheetDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBCueSheetDocument.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		49C999F01585E3F00048DF71 /* GBCueSheetDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GBCueSheetDocument.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		49C999F715861D0B0048DF71 /* GBDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBDuration.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		49C999F815861D0B0048DF71 /* GBDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBDuration.m; sourceTree = "<group>"; };
+		49C999FF158650A20048DF71 /* Apple.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Apple.icns; sourceTree = "<group>"; };
+		49C99A06158655C80048DF71 /* GBPathDragDropTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBPathDragDropTextField.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		49C99A07158655C80048DF71 /* GBPathDragDropTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GBPathDragDropTextField.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		49CCC9CE158882C800766EEB /* GBSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GBSegmentedControl.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		49CCC9CF158882C800766EEB /* GBSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GBSegmentedControl.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		49DB72791588F6D0009D17B7 /* GBCueSheetComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBCueSheetComponents.h; path = "Cue Editor/GBCueSheetComponents.h"; sourceTree = SOURCE_ROOT; };
+		49DB727A1588F6D0009D17B7 /* GBCueSheetComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBCueSheetComponents.m; path = "Cue Editor/GBCueSheetComponents.m"; sourceTree = SOURCE_ROOT; };
+		49E55E0C1588CF9E00745EC8 /* GBGlobalStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBGlobalStrings.h; path = "Cue Editor/GBGlobalStrings.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4942B8B01581A52A00155674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4942B8B81581A52A00155674 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4942B8A81581A52A00155674 = {
+			isa = PBXGroup;
+			children = (
+				4942B8BD1581A52A00155674 /* CUE Editor */,
+				49C99A021586531B0048DF71 /* Nibs */,
+				49C99A011586530D0048DF71 /* Resources */,
+				4942B8BE1581A52A00155674 /* Supporting Files */,
+				4942B8B61581A52A00155674 /* Frameworks */,
+				4942B8B41581A52A00155674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4942B8B41581A52A00155674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4942B8B31581A52A00155674 /* Cue Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4942B8B61581A52A00155674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B1C8F9158B922A007CD36D /* CoreAudioKit.framework */,
+				491FA8CA15874CA500C602D6 /* QuickLook.framework */,
+				4942B8B71581A52A00155674 /* Cocoa.framework */,
+				4942B8B91581A52A00155674 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4942B8B91581A52A00155674 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4942B8BA1581A52A00155674 /* AppKit.framework */,
+				4942B8BB1581A52A00155674 /* CoreData.framework */,
+				4942B8BC1581A52A00155674 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4942B8BD1581A52A00155674 /* CUE Editor */ = {
+			isa = PBXGroup;
+			children = (
+				49CCC9D715888EB800766EEB /* App Delegate & Controller */,
+				49B1C900158B9479007CD36D /* About Window */,
+				49C99A1C1586E35B0048DF71 /* Cue Sheet Document (Reusable) */,
+				49DB727D1588F91D009D17B7 /* GBSegmentedControl */,
+				49C99A1E1586E3970048DF71 /* GBPathDragDropTextField */,
+				49DB727C1588F8E5009D17B7 /* Utilities */,
+			);
+			path = "CUE Editor";
+			sourceTree = "<group>";
+		};
+		4942B8BE1581A52A00155674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4942B8C51581A52A00155674 /* CUE Editor-Prefix.pch */,
+				4942B8BF1581A52A00155674 /* CUE Editor-Info.plist */,
+				4942B8C01581A52A00155674 /* InfoPlist.strings */,
+				4942B8C31581A52A00155674 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "CUE Editor";
+			sourceTree = "<group>";
+		};
+		49B1C900158B9479007CD36D /* About Window */ = {
+			isa = PBXGroup;
+			children = (
+				49B1C8FB158B940F007CD36D /* GBAboutWindowController.h */,
+				49B1C8FC158B940F007CD36D /* GBAboutWindowController.m */,
+			);
+			name = "About Window";
+			sourceTree = "<group>";
+		};
+		49C99A011586530D0048DF71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				493879B7159383DB009BE2F7 /* Cue Sheet.icns */,
+				49C999FF158650A20048DF71 /* Apple.icns */,
+				4974D83015944FA500FE105C /* Genre.plist */,
+			);
+			name = Resources;
+			path = "CUE Editor";
+			sourceTree = "<group>";
+		};
+		49C99A021586531B0048DF71 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				49B1C8FD158B940F007CD36D /* About.xib */,
+				4942B8CC1581A52A00155674 /* CueSheetDocument.xib */,
+				4942B8CF1581A52B00155674 /* MainMenu.xib */,
+			);
+			name = Nibs;
+			path = "CUE Editor";
+			sourceTree = "<group>";
+		};
+		49C99A1C1586E35B0048DF71 /* Cue Sheet Document (Reusable) */ = {
+			isa = PBXGroup;
+			children = (
+				49DB72791588F6D0009D17B7 /* GBCueSheetComponents.h */,
+				49DB727A1588F6D0009D17B7 /* GBCueSheetComponents.m */,
+				49C999EF1585E3F00048DF71 /* GBCueSheetDocument.h */,
+				49C999F01585E3F00048DF71 /* GBCueSheetDocument.m */,
+			);
+			name = "Cue Sheet Document (Reusable)";
+			sourceTree = "<group>";
+		};
+		49C99A1E1586E3970048DF71 /* GBPathDragDropTextField */ = {
+			isa = PBXGroup;
+			children = (
+				49C99A06158655C80048DF71 /* GBPathDragDropTextField.h */,
+				49C99A07158655C80048DF71 /* GBPathDragDropTextField.m */,
+			);
+			name = GBPathDragDropTextField;
+			sourceTree = "<group>";
+		};
+		49CCC9D715888EB800766EEB /* App Delegate & Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4942B8DE1581AE9700155674 /* GBAppDelegate.h */,
+				4942B8DF1581AE9700155674 /* GBAppDelegate.m */,
+				4904CCFA1587162E002EAF32 /* GBURLView.h */,
+				4904CCFB1587162E002EAF32 /* GBURLView.m */,
+				49951D0A158B2384001D831E /* GBPrioritySet.h */,
+				49951D0B158B2384001D831E /* GBPrioritySet.m */,
+			);
+			name = "App Delegate & Controller";
+			sourceTree = "<group>";
+		};
+		49DB727C1588F8E5009D17B7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49E55E0C1588CF9E00745EC8 /* GBGlobalStrings.h */,
+				49C999F715861D0B0048DF71 /* GBDuration.h */,
+				49C999F815861D0B0048DF71 /* GBDuration.m */,
+				491FA8D31587996E00C602D6 /* GBWideStringUtils.h */,
+				491FA8D21587996E00C602D6 /* GBWideStringUtils.m */,
+				4983FAFB1593BC47007E9B12 /* GBFormatters.h */,
+				4983FAFC1593BC47007E9B12 /* GBFormatters.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		49DB727D1588F91D009D17B7 /* GBSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				49CCC9CE158882C800766EEB /* GBSegmentedControl.h */,
+				49CCC9CF158882C800766EEB /* GBSegmentedControl.m */,
+			);
+			name = GBSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4942B8B21581A52A00155674 /* Cue Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4942B8D71581A52B00155674 /* Build configuration list for PBXNativeTarget "Cue Editor" */;
+			buildPhases = (
+				4942B8AF1581A52A00155674 /* Sources */,
+				4942B8B01581A52A00155674 /* Frameworks */,
+				4942B8B11581A52A00155674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cue Editor";
+			productName = "CUE Editor";
+			productReference = 4942B8B31581A52A00155674 /* Cue Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4942B8AA1581A52A00155674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hunan Institute of Science";
+			};
+			buildConfigurationList = 4942B8AD1581A52A00155674 /* Build configuration list for PBXProject "Cue Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4942B8A81581A52A00155674;
+			productRefGroup = 4942B8B41581A52A00155674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4942B8B21581A52A00155674 /* Cue Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4942B8B11581A52A00155674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4942B8C21581A52A00155674 /* InfoPlist.strings in Resources */,
+				4942B8CE1581A52A00155674 /* CueSheetDocument.xib in Resources */,
+				4942B8D11581A52B00155674 /* MainMenu.xib in Resources */,
+				49C99A00158650A20048DF71 /* Apple.icns in Resources */,
+				49B1C8FF158B940F007CD36D /* About.xib in Resources */,
+				493879B8159383DB009BE2F7 /* Cue Sheet.icns in Resources */,
+				4974D83115944FA500FE105C /* Genre.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4942B8AF1581A52A00155674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4942B8C41581A52A00155674 /* main.m in Sources */,
+				4942B8E01581AE9700155674 /* GBAppDelegate.m in Sources */,
+				49C999F11585E3F00048DF71 /* GBCueSheetDocument.m in Sources */,
+				49C999F915861D0B0048DF71 /* GBDuration.m in Sources */,
+				49C99A08158655C80048DF71 /* GBPathDragDropTextField.m in Sources */,
+				4904CCFC1587162E002EAF32 /* GBURLView.m in Sources */,
+				491FA8D41587996E00C602D6 /* GBWideStringUtils.m in Sources */,
+				49CCC9D0158882C800766EEB /* GBSegmentedControl.m in Sources */,
+				49DB727B1588F6D0009D17B7 /* GBCueSheetComponents.m in Sources */,
+				49951D0C158B2384001D831E /* GBPrioritySet.m in Sources */,
+				49B1C8FE158B940F007CD36D /* GBAboutWindowController.m in Sources */,
+				4983FAFD1593BC47007E9B12 /* GBFormatters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4942B8C01581A52A00155674 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4942B8C11581A52A00155674 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4942B8CC1581A52A00155674 /* CueSheetDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4942B8CD1581A52A00155674 /* en */,
+			);
+			name = CueSheetDocument.xib;
+			sourceTree = "<group>";
+		};
+		4942B8CF1581A52B00155674 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4942B8D01581A52B00155674 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4942B8D51581A52B00155674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4942B8D61581A52B00155674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4942B8D81581A52B00155674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cue Editor/Cue Editor-Prefix.pch";
+				INFOPLIST_FILE = "Cue Editor/Cue Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4942B8D91581A52B00155674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Andrew A.A.";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cue Editor/Cue Editor-Prefix.pch";
+				INFOPLIST_FILE = "Cue Editor/Cue Editor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4942B8AD1581A52A00155674 /* Build configuration list for PBXProject "Cue Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4942B8D51581A52B00155674 /* Debug */,
+				4942B8D61581A52B00155674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4942B8D71581A52B00155674 /* Build configuration list for PBXNativeTarget "Cue Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4942B8D81581A52B00155674 /* Debug */,
+				4942B8D91581A52B00155674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4942B8AA1581A52A00155674 /* Project object */;
+}
